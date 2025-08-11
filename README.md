@@ -87,12 +87,28 @@ This enhanced version includes **12+ major new features** that transform the sim
 - Python 3.8 or higher
 - Linux Mint / Ubuntu / Debian (tested)
 
-### Quick Start
+### Option 1: Pre-built Packages (Recommended)
+
+#### DEB Package (Ubuntu/Debian)
+```bash
+wget https://github.com/DarrylClay2005/enhanced-image-cropper/releases/download/v1.0.2/enhanced-image-cropper_1.0.2_all.deb
+sudo dpkg -i enhanced-image-cropper_1.0.2_all.deb
+sudo apt-get install -f  # Fix dependencies if needed
+```
+
+#### AppImage (Universal Linux)
+```bash
+wget https://github.com/DarrylClay2005/enhanced-image-cropper/releases/download/v1.0.2/Enhanced-Image-Cropper-1.0.2-x86_64.AppImage
+chmod +x Enhanced-Image-Cropper-1.0.2-x86_64.AppImage
+./Enhanced-Image-Cropper-1.0.2-x86_64.AppImage
+```
+
+### Option 2: Build from Source
 
 ```bash
 # Clone the enhanced repository
-git clone <repository-url>
-cd image-cropper
+git clone https://github.com/DarrylClay2005/enhanced-image-cropper.git
+cd enhanced-image-cropper
 
 # Setup virtual environment
 python3 -m venv venv
