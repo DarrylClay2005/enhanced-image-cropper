@@ -12,11 +12,11 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
     requirements = [line.strip() for line in fh if line.strip() and not line.startswith("#")]
 
 setup(
-    name="enhanced-image-cropper",
-    version="1.0.2",
+    name="enhanced-image-cropper-kowalski",
+    version="1.0.3.C",
     author="Enhanced Image Cropper Team",
     author_email="dev@example.com",
-    description="A comprehensive photo editing application with modern features and professional-grade tools",
+    description="A comprehensive photo editing application with modern features, professional-grade tools, and Kowalski Edition enhancements",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/your-username/image-cropper",

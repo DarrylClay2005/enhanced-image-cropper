@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# Enhanced Image Cropper launcher
+INSTALL_DIR="/opt/enhanced-image-cropper-kowalski"
+
+# Check if virtual environment exists, create if not
+VENV_DIR="$HOME/.local/share/enhanced-image-cropper-kowalski/venv"
+if [ ! -d "$VENV_DIR" ]; then
+    echo "Setting up Enhanced Image Cropper environment..."
+    mkdir -p "$(dirname "$VENV_DIR")"
+    python3 -m venv "$VENV_DIR"
+    source "$VENV_DIR/bin/activate"
+    pip install --upgrade pip
+    pip install -r "$INSTALL_DIR/requirements.txt"
+else
+    source "$VENV_DIR/bin/activate"
+fi
+
+# Launch the application
+exec python "$INSTALL_DIR/enhanced_main.py" "$@"

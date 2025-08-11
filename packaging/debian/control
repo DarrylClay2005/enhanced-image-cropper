@@ -1,0 +1,26 @@
+Package: enhanced-image-cropper-kowalski
+Version: 1.0.3.C
+Architecture: all
+Maintainer: Enhanced Image Cropper Team <dev@example.com>
+Depends: python3 (>= 3.8), python3-pip, python3-venv, python3-tk
+Recommends: python3-opencv-contrib-python, python3-customtkinter
+Section: graphics
+Priority: optional
+Homepage: https://github.com/your-username/image-cropper
+Description: Professional photo editing suite with advanced cropping tools - Kowalski Edition
+ Enhanced Image Cropper is a comprehensive photo editing application that
+ transforms the simple cropping functionality into a professional-grade
+ editing suite with modern design and advanced capabilities.
+ .
+ Features include:
+ - Modern dark theme interface with CustomTkinter
+ - Professional crop templates (Instagram, YouTube, Facebook, Twitter)
+ - Advanced image adjustments (brightness, contrast, saturation, sharpness)
+ - Professional filters and effects
+ - Smart auto-enhancement with CLAHE algorithm
+ - Noise reduction and histogram equalization
+ - Zoom, pan, and transform operations
+ - Batch processing capabilities
+ - 20-level undo/redo system
+ - Export with quality control
+ - Extended file format support (PNG, JPEG, WebP, TIFF, BMP, GIF)

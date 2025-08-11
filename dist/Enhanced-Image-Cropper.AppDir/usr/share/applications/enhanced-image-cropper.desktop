@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=Enhanced Image Cropper - Kowalski Edition
+Comment=Professional photo editing suite with advanced cropping tools and image processing
+Comment[es]=Suite de edición de fotos profesional con herramientas de recorte avanzadas
+GenericName=Image Editor
+Keywords=image;photo;editor;crop;enhance;filter;batch;professional
+Exec=/usr/local/bin/enhanced-image-cropper
+Icon=enhanced-image-cropper
+Terminal=false
+Type=Application
+Categories=Graphics;Photography;2DGraphics;RasterGraphics;
+MimeType=image/jpeg;image/png;image/tiff;image/bmp;image/webp;image/gif;
+StartupNotify=true
+StartupWMClass=enhanced-image-cropper

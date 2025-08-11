@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Launch script for Enhanced Image Cropper v1.0.2
+Launch script for Enhanced Image Cropper v1.0.3.C - Kowalski Edition
 This script handles environment setup and launches the application
 """
 
@@ -33,7 +33,7 @@ def install_dependencies():
 
 def launch_application():
     """Launch the Enhanced Image Cropper application"""
-    print("🚀 Launching Enhanced Image Cropper v1.0.2...")
+    print("🚀 Launching Enhanced Image Cropper v1.0.3.C - Kowalski Edition...")
     try:
         import enhanced_main
         if hasattr(enhanced_main, 'print_info'):
@@ -54,7 +54,7 @@ def launch_application():
 def main():
     """Main entry point"""
     print("="*60)
-    print("🖼️  Enhanced Image Cropper v1.0.2")
+    print("🖼️  Enhanced Image Cropper v1.0.3.C - Kowalski Edition")
     print("   Professional Photo Editing Suite")
     print("="*60)
     

@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=Enhanced Image Cropper
+GenericName=Photo Editor
+Comment=Professional photo editing suite with advanced cropping and enhancement tools
+Exec=enhanced-image-cropper
+Icon=enhanced-image-cropper
+Terminal=false
+Type=Application
+Categories=Graphics;Photography;2DGraphics;RasterGraphics;
+Keywords=image;photo;crop;edit;enhance;filter;
+MimeType=image/jpeg;image/png;image/bmp;image/tiff;image/gif;image/webp;
+StartupNotify=true
+StartupWMClass=enhanced-image-cropper
+Version=1.0
